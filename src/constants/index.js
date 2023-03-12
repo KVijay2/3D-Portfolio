@@ -13,6 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
+  figma,
   docker,
   meta,
   starbucks,
@@ -90,8 +91,8 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "MongoDB",
@@ -102,19 +103,15 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
   {
-    name: "firebase",
-    icon: firebase
-  },
-  {
-    name: "nextjs",
+    name: "Nextjs",
     icon: nextjs
   }
 ];
@@ -171,6 +168,33 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+  },
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Vijay proved me wrong.",
+    name: "Sara Lee",
+    designation: "CEO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their client's success like Vijay does.",
+    name: "Chris Brown",
+    designation: "HR",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "After Vijay optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CEO",
+    company: "Wayne Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -240,4 +264,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, testimonials, projects };

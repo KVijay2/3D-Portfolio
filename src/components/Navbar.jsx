@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { menu, close } from "../assets";
+import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -44,7 +44,7 @@ const Navbar = () => {
         >
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Vijay &nbsp;
-            <span className='sm:block hidden'> | Full-Stack Developer. </span>
+            <span className='sm:block hidden'> | Full Stack Developer</span>
           </p>
         </Link>
 
